@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+#question {
+    width: 40%;
+}
+
+#outer-ball{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 400px;
+    border: 5px solid black;
+    margin-top: 40px;
+}
+
+#inner-ball {
+    margin: 25% auto;
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    border-radius: 400px;
+    border: 3px solid grey;
+}
+
+#eight {
+    color: black;
+    font-size: 7em;
+    text-align: center;
+    margin: 20% auto;
+    width: 50%;
+    height:50%;
+}
+
+#answer {
+    font-size: 30px;
+    margin: 20% auto;
+    width: 50%;
+    height:50%;
+}

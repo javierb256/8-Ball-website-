@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to 8-Ball</h1>
+            <h2>What will you ask the almighty 8-ball?</h2>
+            <form>
+                <input type="text" id="question" name="question">
+            </form> 
+            <!-- Outer ball with black background -->
+            <div id="outer-ball">
+                <!-- Text within the 8-ball -->
+                <div id="inner-ball" onclick="myFunction()">
+                    <p id="eight">8</p>
+                    <p id="answer"></p>
+                </div>            
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
